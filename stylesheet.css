@@ -11,11 +11,13 @@ header {
   border-radius: 4px;
   margin-bottom: 30px;
 }
+
 h2 {
   font-size: 1.1em;
   text-decoration: underline;
   padding-left: 20px;
 }
+
 h3 {
   font-size: 1em;
   font-style: italic;
@@ -37,9 +39,11 @@ h3 {
   padding-top: 20px;
   margin-bottom: 40px;
 }
+
 #left-box p {
   padding: 10px 0px 15px 20px;
 }
+
 .photo {
   width: 100px;
   height: 100px;
@@ -48,50 +52,62 @@ h3 {
   border: solid 1px #FFF;
   box-shadow: 1px 1px 2px rgb(180,180,180);
 }
+
 /*liste info*/
 li {
   margin-top: 6px;
 }
+
 li.phone {
-  list-style-image: url("phone.png");
+  list-style-image: url("img/phone.png");
 }
+
 li.mail {
-  list-style-image: url("mail.png");
+  list-style-image: url("img/mail.png");
 }
+
 li.home {
-  list-style-image: url("home.png");
+  list-style-image: url("img/home.png");
 }
+
 /*liste langue*/
 li.lang1 {
-  list-style-image: url("battery3.png");
+  list-style-image: url("img/battery3.png");
 }
+
 li.lang2 {
-  list-style-image: url("battery2.png");
+  list-style-image: url("img/battery2.png");
 }
+
 li.lang3 {
-  list-style-image: url("battery1.png");
+  list-style-image: url("img/battery1.png");
 }
+
 /*liste loisirs*/
 .loisirs li {
-  list-style-image: url("star.png");
+  list-style-image: url("img/star.png");
 }
 
 /*right-box*/
 #right-box {
   margin-left: 310px;
 }
+
 #experiences-box, #studies-box {
   background-color: #FFF;
   border-radius: 4px;
   border: solid 1px rgb(130,130,130);
   box-shadow: 1px 1px 2px rgb(180,180,180);
 }
+
 .experience, .study {
   margin-left: 20px;
 }
+
 .experience p, .study p {
   margin-left: 10px;
 }
+
 #studies-box {
   margin-top: 20px;
 }
@@ -103,6 +119,7 @@ footer {
   border: solid 1px rgb(130,130,130);
   box-shadow: 1px 1px 2px rgb(180,180,180);
 }
+
 footer p {
   margin-top: 20px;
   margin-left: 20px;
